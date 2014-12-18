@@ -60,23 +60,13 @@ module Naranjero
    
 	  @th1.join
 	  @th2.join
-   
-   	it "Los hilos pertenecen a la clase Thread" do
-	    expect(@th1.class).to eq(Thread)
-	    expect(@th2.class).to eq(Thread)
-	end
-	it "Edad del arbol" do
-    	expect(@var_arbol.edad).to eq(13)
-    end
-    it "Numero de Naranjas" do
-    	expect(@var_arbol.contador).to eq(0)
-    end
-    it "Altura del arbol" do 
-    	expect(@var_arbol.altura).to eq(26)
-    end
-    it "Muerte del arbol" do
-    	expect(@var_arbol.Arbol_RIP).to eq(true)
-    end
+
+    expect(@th1.class).to eq(Thread)
+    expect(@th2.class).to eq(Thread)
+	expect(@var_arbol.edad).to eq(13)
+	expect(@var_arbol.contador).to eq(0)
+	expect(@var_arbol.altura).to eq(26)
+	expect(@var_arbol.Arbol_RIP).to eq(true)
   end
       
   end
