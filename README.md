@@ -1,31 +1,21 @@
 # Naranjero
 
-TODO: Write a gem description
+Practica de hilos
 
-## Installation
+## Instalación
 
-Add this line to your application's Gemfile:
+Añade esta línea a tu aplicación:
 
 ```ruby
 gem 'naranjero'
 ```
 
-And then execute:
+y ejecuta:
 
     $ bundle
 
-Or install it yourself as:
+- Despliege en Travis [![Build Status](https://travis-ci.org/alu0100605983/LPP_T_7B_P12.svg?branch=master)](https://travis-ci.org/alu0100605983/LPP_T_7B_P12)
 
-    $ gem install naranjero
+- Despliege Coveralls
 
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/naranjero/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Haniel Y Maria
