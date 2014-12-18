@@ -17,6 +17,7 @@ module Naranjero
 		else
 		   puts "Negativo, no es que no queramos es que no hay naranjas.\n"
 		end
+		@contador
     end
     
     def uno_mas
